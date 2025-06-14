@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">aplicacion_personajes</string>
+    <string name="anterior">Anterior</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="descripcion_del_personaje">Descripción del personaje</string>
+    <string name="nombre_del_personaje">Nombre del Personaje</string>
+
+    <string-array name="personajes_nombre">
+        <item>Spike</item>
+        <item>Jet</item>
+        <item>Faye</item>
+        <item>Ed</item>
+        <item>Ein</item>
+        <item>Vicious</item>
+        <item>Julia</item>
+    </string-array>
+
+    <string-array name="personajes_descripcion">
+        <item>Ex-miembro del sindicato del crimen Red Dragon. Cazarrecompensas con un pasado oscuro y habilidades excepcionales en artes marciales. Pilota la nave Swordfish II. Protagonista de Cowboy Bebop, conocido por su actitud relajada y su filosofía de "que será, será". Experto en combate y pilotaje.</item>
+        <item>Ex-policía de Ganímedes y capitán de la nave Bebop. Conocido como "Black Dog" por su tenacidad. Es el más responsable del grupo y actúa como figura paterna. Mecánico experto y cocinero del grupo. Perdió su brazo izquierdo en el pasado y ahora usa una prótesis cibernética.</item>
+        <item>Cazarrecompensas con amnesia que despertó de criogenia con una deuda enorme. Es astuta, independiente y tiene un pasado misterioso del siglo XX. Jugadora compulsiva y estafadora talentosa. A pesar de su actitud dura, es vulnerable y busca su identidad perdida.</item>
+        <item>Genio de la computación de 13 años, excéntrica y enérgica. Hacker prodigio que se une al equipo Bebop junto con su perro Ein. Niña genio en computación, libre de espíritu y con una personalidad única. Su verdadero nombre es Françoise Appledelhi.</item>
+        <item>Perro Corgi galés modificado genéticamente con inteligencia superior. Originalmente un animal de laboratorio, se convierte en mascota del Bebop. Data Dog con habilidades extraordinarias. Aunque no puede hablar, demuestra inteligencia casi humana en múltiples situaciones.</item>
+        <item>Ambicioso y despiadado miembro del sindicato Red Dragon. Ex-compañero y ahora enemigo mortal de Spike. Siempre lleva una katana. Antagonista principal de la serie. Su rivalidad con Spike define gran parte de la trama principal de Cowboy Bebop.</item>
+        <item>Mujer misteriosa del pasado de Spike, involucrada con el sindicato Red Dragon. Su relación con Spike es central en la historia de la serie. El gran amor de Spike Spiegel. Su historia está entrelazada con Vicious en una compleja red de traición y amor.</item>
+    </string-array>
+
+    <string-array name="personajes_imagen_vertical">
+        <item>spike</item>
+        <item>jet</item>
+        <item>faye</item>
+        <item>ed</item>
+        <item>ein</item>
+        <item>vicious</item>
+        <item>julia</item>
+    </string-array>
+
+    <string-array name="personajes_imagen_horizontal">
+        <item>spike2</item>
+        <item>jet2</item>
+        <item>faye2</item>
+        <item>ed2</item>
+        <item>ein2</item>
+        <item>vicious2</item>
+        <item>julia2</item>
+    </string-array>
+
+
+</resources>
