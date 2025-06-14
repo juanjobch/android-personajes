@@ -37,6 +37,10 @@ public class PersonajesActivity extends AppCompatActivity {
             return insets;
         });
 
+        //Actualizacion con el maneo del estado
+        if (savedInstanceState != null) {
+            posicion = savedInstanceState.getInt("posicion", 0);
+        }
 
 
 
@@ -107,7 +111,13 @@ public class PersonajesActivity extends AppCompatActivity {
         btnsiguiente.setEnabled(posicion < nombres.length - 1);
     }
 
+    //Actualizacion con el maneo del estado
+    @Override
+    protected void onSaveInstanceState(@NonNull Bundle outState) {
+        super.onSaveInstanceState(outState);
 
+        outState.putInt("posicion", posicion);
+    }
 
 
 }
